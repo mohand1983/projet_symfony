@@ -6,7 +6,7 @@ sdzblog_accueil:
         page:  \d*
 sdzblog_voir:
     path:      /article/{id}
-    defaults:  { _controller: SdzBlogBundle:Blog:voir }
+    defaults:  { _controller: SdzBlogBundle:Blog:index }
     requirements:
         id:  \d+
 sdzblog_ajouter:
